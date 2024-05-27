@@ -23,6 +23,6 @@ def compare_directories_textually(dir1, dir2):
             similarity = calculate_similarity(file1, file2)
             print(f"Similitude: {similarity:.2f}%")
 
-folder1 = "compilateur1"
-folder2 = "compilateur2"
+folder1 = "folder1"
+folder2 = "folder2"
 compare_directories_textually(folder1, folder2)
